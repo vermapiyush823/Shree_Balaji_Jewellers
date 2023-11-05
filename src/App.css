@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans:wght@300&family=Poppins&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Italiana&family=Nunito+Sans:wght@300&family=Poppins&family=Roboto:wght@100&display=swap');
+body
+{
+  font-family: 'Italiana', serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px  solid black;
+  height: 70px;
+  background: white;
+}
+
+header nav input[type="text"] {
+  width: 200px;
+  height: 40px;
+  margin-top: 12px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 1.5px solid #000;
+  background: #FFF;
+}
+
+header nav input::placeholder {
+  text-align: center;
+  color: #000;
+  font-style: normal;
+  font-size: large;
+  font-family: 'Italiana', serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  line-height: normal;
+}
+
+header nav button {
+  width: auto;
+  background-color: white;
+  border: 0px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 230px;
+  cursor:pointer;
+  font-family: 'Italiana', serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  
+}
+header nav button:hover {
+  color: #000;
+  font-weight: bolder;
+}
+
+nav img {
+  width: 420px;
+  height: 70px;
+  margin-left: 36%;
+  position: absolute;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 60px;
+}
+
+header nav ul li {
+  margin-top: 20px;
+  font-size: 20px;
+  
+}
+
+header nav ul li a {
+  text-decoration: none;
+  margin-left : 35px;
+  color: #000;
+}
+header nav ul li a:hover {
+  font-weight: bolder;
+}

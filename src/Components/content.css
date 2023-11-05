@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans:wght@300&family=Poppins&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Italiana&family=Nunito+Sans:wght@300&family=Poppins&family=Roboto:wght@100&display=swap');
+
+.content img{
+    width: 100%;
+    height: 750px;
+    position: absolute;
+}
+
+.scroller {
+    position: relative;
+    display: flex;
+    justify-content: space-betweeen;
+}
+.scroller a{
+    font-size: 50px;
+    margin-top: 20%;
+    color: white !important;
+    cursor: pointer;
+}
+.scroller a:hover{
+    opacity: 0.7;
+}
+.scroller >  a:first-of-type{
+    margin-right: 1280px;
+    margin-left: 50px;
+}
+
+.content-text{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -90px;
+}
+.content-text > h1:first-of-type
+{
+    margin-left: 12px;
+} 
+.content-text h1{
+    font-size: 50px;
+    color: white;
+    font-weight: light;  
+    line-height: 50px;
+    font-family: 'Italiana', serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.content-text button
+{
+    width: 150px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 35px;
+    cursor:pointer;
+    font-family: 'Italiana', serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+    border: 0;
+}
+.content-text button:hover
+{
+    background-color: #f7f6f1;
+    color: black;
+    font-weight: bolder;
+    border: 1px solid black;
+}
